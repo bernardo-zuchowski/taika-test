@@ -1,0 +1,19 @@
+{
+  "name": "taika-test",
+  "version": "1.0.0",
+  "packageManager": "npm@10.9.2",
+  "main": "index.js",
+  "scripts": {
+    "sandcastle": "npx tsx .sandcastle/main.mts"
+  },
+  "author": "Bernardo Zuchowski",
+  "license": "MIT",
+  "description": "CLI for orchestrating AI agents in isolated sandbox environments",
+  "devDependencies": {
+    "@ai-hero/sandcastle": "^0.7.0",
+    "@types/node": "^25.9.1"
+  },
+  "dependencies": {
+    "zod": "^4.4.3"
+  }
+}
